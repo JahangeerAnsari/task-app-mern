@@ -1,0 +1,30 @@
+
+.navbar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background:black;
+  .header-nav-links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    .nav-link {
+      margin: 0 2px;
+      padding: 2px 5px; 
+      font-size: 25px;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+
+  .navbar-brand {
+    margin-left: 50px;
+    font-size: 25px;
+    &:hover {
+      color: blue;
+    }
+  }
+  
+}
